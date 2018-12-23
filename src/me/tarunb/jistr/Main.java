@@ -6,6 +6,9 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.util.IntSummaryStatistics;
+import java.util.Random;
+
 public class Main extends Application {
 
     @Override
@@ -14,6 +17,7 @@ public class Main extends Application {
         primaryStage.setTitle("Jistr");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
+
     }
 
 
